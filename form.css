@@ -1,0 +1,40 @@
+body{
+    background-color: #ECEEF1 ;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60%;
+}
+
+.user_sign_in{
+    float: right;
+    display: block;
+    margin-right: 8px;
+    text-align: right;
+    font-size: 13px;
+}
+
+#Sign_in {
+    text-decoration: none;
+    color: white;
+    background-color: #0077c5;
+    padding: 9px 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+#forgot_password_text{
+    text-decoration: none;
+    color: #0077c5; 
+    margin-top: 5px; 
+    display: block;
+}
+
+#mint_logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); margin-top: 15px; 
+}

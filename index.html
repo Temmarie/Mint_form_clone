@@ -12,15 +12,60 @@
 </head>
 
 <body>
+    <header>
+        <div class="user_sign_in">
+            <small id="user-sign-in">Already have an account?<br>
+                <a href="#" id="forgot_password_text">I forgot my User ID or Password</a></small>
+            <button type="button" id="Sign_in" class="fas fa-lock"> Sign In</button>
+        </div>
+    </header>
+    <main>
+        <div class="mint_logo">
+            <img src="mint-images/mint-logo.jpg" alt="Mint Logo">
+        </div>
+        <div class="text-top">
+            <h1>Create an Intuit account</h1>
+            <p>One account for everything Intuit, including Mint. </p>
+            <a href="#">Learn more</a>
+        </div>
+        <form action="input">
+            <label for="email">Email address</label>
+            <input type="email" id="emailaddress">
+            <label for="phone">Phone (recommended)</label>
+            <input type="number" id="phonenumber">
+            <small> <label for="phone">Standard call, messaging or data rates may apply.</label> </small>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <button id="submit">Create Account</button>
+        </form>
 
+        <div class="privacy">
+            <small>
+                <p>By clicking Create account, you agree to our </p>
+                <br>
+                <p> <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy</a> </p>
+                <br>
+                <a href="#">Statement.</a>
+            </small>
+        </div>
+        <p>
+            <small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href=""> Terms of
+                    Use.</a></small>
+        </p>
 
-
-
-
-
-
-
-
-    
+    </main>
+    <footer>
+        <p id="legal">
+           <a href="#">Legal</a> <a href="">Privacy</a> <a href="">Security</a>
+        </p>
+        <br>
+        <p>
+            © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            registered trademarks of Intuit Inc.
+            <br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </p>
+    </footer>
 </body>
+
 </html>
