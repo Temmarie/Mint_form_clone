@@ -26,22 +26,22 @@
 
 
     <!--Mint logo-->
-    <div id="mint-logo"> <img src="C:\Users\Tamar\OneDrive\Desktop\Mint_form_clone\mint-images\mint-logo.jpg"></div>
+    <div id="mint-logo"> <img src="mint-images/mint-logo.jpg" alt="Mint Logo" /></div>
 
     <!--main form-->
 
     <main class="form-block">
-        <h1> Create an Intuit account</h1>
-        <p>One account for everything Intuit, including Mint.</p>
+        <h1>Create an Intuit account</h1>
+        <p >One account for everything Intuit, including Mint.</p>
         <small><a href="#">Learn more</a> </small>
-        <p> Already have account? <small><a href="#"> Sign in</a></small></p>
+        
 
         <form action="/login" method="post">
             <label for="email">Email</label>
             <input type="email" name="email" id="email">
 
             <label for="phone">Phone(recommended)</label>
-            <input type="phone" name="phone" id="phone">
+            <input type="number" name="phone" id="phone">
             <p><small> Standard call, messaging or data rates may apply.</small></p>
 
             <label for="password">Password</label>
@@ -54,7 +54,7 @@
         </form>
         <!--Terms and conditions-->
         <div class="terms_and_conditions">
-            <p><small style=font-style:italics;>By clicking Create account, you agree to our<br />
+            <p><small id="by">By clicking Create account, you agree to our<br />
                     <a href="#"> Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></small>
             </p>
         </div>
@@ -71,8 +71,8 @@
     <footer>
         <span class="legal"><a href="#">Legal</a> <a href="#">Privacy</a> <a href="#">Security</a> </span><br>
         <div class="copyright">© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and
-            Mint<br />
-            are registered trademarks of Intuit Inc.<br />
+            Mintare registered trademarks of Intuit Inc.
+            <br />
             Terms and conditions, features, support, pricing, and service options subject to change without<br />
             notice.</div>
     </footer>

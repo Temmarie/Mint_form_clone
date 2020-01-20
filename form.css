@@ -67,8 +67,8 @@ header {
 }
 
 h1{
-    font-size: 24px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 10px;
     padding-bottom: 20px;
 }
 
@@ -77,7 +77,7 @@ font-size:14px;
 }
 
 .form-block a{
-    font-size: 12px;
+    font-size: 10px;
     color: #0077c5;
     text-decoration: none;
 }
@@ -129,6 +129,10 @@ form small{
     font-style: italic;
     margin: 0 12px;
 }
+
+#by{
+  font-style: italic;
+}
 /*Privacy policy*/
 #Privacy_policy{
     margin: 32px -30px 0 -30px;
@@ -150,14 +154,17 @@ footer {
     margin-top: 20px;    
     text-align: center;
     margin-bottom: 20px;
+    color: #8d9096;
 }
 
 .legal {
     padding: 5px;
-    font-size: 12px;    
+    font-size: 12px; 
+    color: #8d9096;
 }
 .legal a:hover{
     text-decoration: underline;
+    color: #8d9096;
 }
 
 span a{
