@@ -133,9 +133,8 @@ form small {
   font-size: 12px;
   color:grey;
 }
-<<<<<<< HEAD
+
 /*Privacy policy*/
-<<<<<<< HEAD
 #privacy_policy{
     margin: 32px -30px 0 -30px;
     font-size: 10px;
@@ -146,11 +145,10 @@ form small {
 
 #privacy_policy a{
     font-size: 10px;
-=======
-=======
+  }
 
->>>>>>> cf08602a2a5e1ea781adefee9da2d4993807df94
-#Privacy_policy {
+
+#privacy_policy {
   margin: 32px -30px 0 -30px;
   font-size: 10px;
   padding: 16px;
@@ -163,9 +161,8 @@ form small {
   color: #8d9096;
 }
 
-#Privacy_policy a {
+#privacy_policy a {
   font-size: 10px;
->>>>>>> e49e7596ab9e601ca84a689af52f59f4cd8d42d3
 }
 
 footer {
