@@ -131,22 +131,8 @@ form small {
 #by {
   font-style: italic;
   font-size: 12px;
-  color:grey;
+  color: grey;
 }
-
-/*Privacy policy*/
-#privacy_policy{
-    margin: 32px -30px 0 -30px;
-    font-size: 10px;
-    padding: 16px;
-    background-color: #ECEEF1;
-    color: #8d9096;
-}
-
-#privacy_policy a{
-    font-size: 10px;
-  }
-
 
 #privacy_policy {
   margin: 32px -30px 0 -30px;
